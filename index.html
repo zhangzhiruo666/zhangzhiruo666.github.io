@@ -15,7 +15,7 @@
 
         var qjcs = 0;//二维码状态
 
-        var bm = '浙江传媒学院/学生/媒体工程学院学院/数字媒体技术/20数字媒体技术3班';//二维码状态
+        var bm = '浙江传媒学院/学生/媒体工程学院学院/数字媒体技术/20数字媒体技术2班';//二维码状态
         $(window).load(function () {
             //if (qjcs >= 2) {
             //    $('#button2').attr("disabled", true);
@@ -145,10 +145,10 @@
             //second1 = 2;
 
             if (((hour1 + 2) * 60 + minute1) <= 1350) {
-                document.getElementById("time").innerText = "通行时间：" + year1 + "-" + month1 + "-" + day1 + " " + ((hour1 - 2 + 24) % 24).toString().padStart(2, '0') + ":" + minute1.toString().padStart(2, '0') + "-" + year1 + "/" + month1 + "/" + day1 + " " + ((hour1 + 2 + 24) % 24).toString().padStart(2, '0') + ":" + minute1.toString().padStart(2, '0') + ":00";
+                document.getElementById("time").innerText = "通行时间：" + year1 + "-" + month1 + "-" + day1+ " " + ((hour1 - 2 + 24) % 24).toString().padStart(2, '0') + ":" + minute1.toString().padStart(2, '0') + "-" + year1 + "/" + month1 + "/" +( day1+1 )+ " " + ((hour1 + 2 + 24) % 24).toString().padStart(2, '0') + ":" + minute1.toString().padStart(2, '0') + ":00";
             }
             else {
-                document.getElementById("time").innerText = "通行时间：" + year1 + "-" + month1 + "-" + day1 + " " + ((hour1 - 2 + 24) % 24).toString().padStart(2, '0') + ":" + minute1.toString().padStart(2, '0') + "-" + year1 + "/" + month1 + "/" + day1 + " " + "22:30:00";
+                document.getElementById("time").innerText = "通行时间：" + year1 + "-" + month1 + "-" + day1+ " " + ((hour1 - 2 + 24) % 24).toString().padStart(2, '0') + ":" + minute1.toString().padStart(2, '0') + "-" + year1 + "/" + month1 + "/" +( day1+1) + " " + "22:30:00";
             }
         })
 
@@ -167,8 +167,8 @@
         <span class="max-span">守护校园 &nbsp; &nbsp; &nbsp; &nbsp;人人有责</span>
         <div class="max-sk"></div>
         <div class="max-sk-nz">
-            <span class="max-sk-nz-zt" style="margin-top: 20px;">姓名：周时贤</span>
-            <span class="max-sk-nz-zt">班级：20数字媒体技术3班</span>
+            <span class="max-sk-nz-zt" style="margin-top: 20px;">姓名：张芷若</span>
+            <span class="max-sk-nz-zt">班级：20数字媒体技术2班</span>
 
 
             <span class="max-sk-nz-sj"
